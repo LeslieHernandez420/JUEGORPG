@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.panels.DialogPanel">
+  <grid id="27dc6" binding="backgrounPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="2" bottom="9" right="2"/>
+    <constraints>
+      <xy x="20" y="20" width="789" height="146"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <maximumSize width="742" height="113"/>
+      <minimumSize width="742" height="113"/>
+      <opaque value="false"/>
+      <preferredSize width="742" height="113"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="a7b25" binding="scrollPanel" custom-create="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="730" height="98"/>
+            <preferred-size width="730" height="98"/>
+            <maximum-size width="730" height="98"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalScrollBarPolicy value="31"/>
+          <opaque value="false"/>
+          <verticalScrollBarPolicy value="22"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2eb64" class="javax.swing.JTextArea" binding="text" custom-create="true">
+            <constraints/>
+            <properties>
+              <alignmentY value="0.5"/>
+              <autoscrolls value="true"/>
+              <columns value="1"/>
+              <doubleBuffered value="true"/>
+              <dropMode value="INSERT"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <focusCycleRoot value="true"/>
+              <focusTraversalPolicyProvider value="true"/>
+              <focusable value="true"/>
+              <inheritsPopupMenu value="true"/>
+              <lineWrap value="true"/>
+              <maximumSize width="720" height="21"/>
+              <opaque value="false"/>
+              <rows value="3"/>
+              <text value=""/>
+              <verifyInputWhenFocusTarget value="false"/>
+              <visible value="true"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <vspacer id="1684d">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="56e05">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="46c54">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="bead0">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
